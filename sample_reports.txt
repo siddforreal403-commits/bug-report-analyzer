@@ -1,0 +1,7 @@
+Stored XSS in profile bio allows JavaScript execution when another user views the profile page.
+
+Unauthorized access to another user invoice via predictable invoice ID in /api/invoices/12345.
+
+Password reset flow lacks token expiry validation, allowing reuse of old reset links.
+
+Arbitrary file upload accepted because content-type validation can be bypassed with a crafted request.
